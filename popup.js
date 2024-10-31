@@ -6,7 +6,7 @@ function injectHelloWorld() {
         function: () => {
           const textarea = document.getElementById("editor");
           if (textarea) {
-            textarea.value = "Hello World!";
+            textarea.value = "Hello World!, ENRIQUE WAS HERE, WITH Francisco, Javier and GUS 🪱";
           } else {
             console.log("El elemento <textarea> no se encontró en la página.");
           }
