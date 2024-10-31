@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Hello World Extension",
+    "version": "1.1",
+    "description": "Una extensión que muestra Hello World y lo envía a un textarea",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "LOGO.png"
+    },
+    "permissions": ["scripting"],
+    "host_permissions": [
+      "https://write-box.appspot.com/*"
+    ]
+  }
+  
